@@ -9,8 +9,6 @@ import { dataDance } from "./dataDance";
         const newChosenDance = dataDance.filter(element => element.searchTerm === searchTerm);
         setDance(newChosenDance);
     }
-
-
     return(
         <div>
         <ButtonDance chosenDance = {chosenDance}/>

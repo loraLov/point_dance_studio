@@ -8,9 +8,8 @@ import imageThree from './contemp.jpeg';
 
 function DanceInfo ({dance}){ 
 
-  const container = useRef();
-
-  useGSAP(() => {
+const container = useRef();
+useGSAP(() => {
     gsap.from(".danceMainPic", {x:-2000, duration:1.5}); 
     gsap.from(".danceOverlapPic", {x:3000, duration: 1.5});
     gsap.from(".allDance", {opacity:0, delay:1.5})
