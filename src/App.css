@@ -484,6 +484,7 @@ label{
     font-size: 22px;
   }
   .pic_main{
+    position: relative;
     width: 280px;
     box-shadow: 4px 2px 5px 7px rgb(125, 124, 124, 0.7) 
   }
