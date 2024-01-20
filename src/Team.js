@@ -16,7 +16,7 @@ function Team () {
     }, { scope: container }) 
 
     const [team, setTeam] = useState(0);
-    const {id, name, dance, description,image, imageOne, imageTwo} = dataTeam[team];
+    const {name, dance, description,image, imageOne, imageTwo} = dataTeam[team];
 
     const previous = () =>{
         setTeam((team => {

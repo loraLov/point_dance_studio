@@ -21,7 +21,7 @@ function About (){
 
   }, { scope: container }) 
 
-  const[reviews, setReviews] = useState(data);
+  const[reviews] = useState(data);
   const [showText, setShowText] = useState(false);
   const showTextClick = (element) => {
       element.showMore = !element.showMore;
