@@ -1,0 +1,689 @@
+.head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header{
+  display: flex;
+  font-family: 'Varela Round', sans-serif;
+  justify-content: center;
+}
+
+h1{
+  font-size: 45px;
+}
+h4{
+  font-size: 16px;
+  margin-top: 0;
+}
+.menu{
+  display: none;
+}
+.link{
+  text-decoration: none;
+  font-family: 'Varela Round', sans-serif;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  transition: font-size 0.7s;
+}
+.link:hover{
+  font-size: 25px;
+}
+nav{
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.music_button{
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+.music_button:hover{
+  box-shadow: 4px 2px 5px 5px rgb(125, 124, 124, 0.6) ;
+}
+
+.musical{
+  display: flex;
+  justify-content: center;
+}
+.play{
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+
+.text{
+  width:500px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+  font-weight: lighter;
+}
+
+.pic_main{
+  position: absolute;
+  box-shadow: 4px 2px 5px 10px rgb(125, 124, 124,0.7);
+}
+.pic_overlap{
+  position: relative;
+  margin-top: 500px;
+  margin-left: 380px;
+  box-shadow: 4px 2px 5px 10px rgb(125, 124, 124, 0.7) ;
+}
+
+.mainClass{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: rgb(184, 176, 176, 0.4);
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+.pictures{
+  width: 30%;
+  margin-top: 20px;
+}
+.numbers{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
+
+.block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span{
+  font-size: 30px;
+  color: #0081B4;
+}
+.pic_about{
+   margin-top: 20px;
+}
+.reviews_header{
+  font-size: 30px;
+  font-family: 'Varela Round', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.btn_rev{
+  border: none;
+  background-color: white;
+  color: #0081B4;
+  font-family: 'Varela Round', sans-serif;
+  cursor:pointer;
+}
+hr{
+  width: 40%;
+}
+.name_rev{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+}
+.text_rev{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}
+
+.mainRev{
+  width: 700px;
+  text-align: center;
+  padding: 5px;
+}
+.allRev{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.textDance{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  margin-top: 0;
+  
+}
+.allDance{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #F0F1F1;
+  width: 50%;
+}
+.commonDance{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  padding: 20px;
+  width: 160px;
+  text-align: center;
+}
+.danceName{
+  color:#CA9175;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.btnDance{
+  background-color:#CA9175;
+  padding: 18px;
+  width: 180px;
+  border: none;
+  margin: 17px;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+}
+.btnDance:hover{
+  background-color: white;
+  border: 3px solid #CA9175;
+  color: #CA9175;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.danceMainPic{
+  position: absolute;
+  box-shadow: 4px 2px 5px 7px rgb(125, 124, 124, 0.5) ;
+}
+.danceOverlapPic{
+  position: relative;
+  margin-left: 150px;
+  margin-top: 310px;
+  box-shadow: 4px 2px 5px 7px rgb(125, 124, 124, 0.5) ;
+}
+.danceContainer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.dance_images{
+   margin-top: 100px;
+}
+.quote{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  font-size: 45px;
+  font-family: 'Great Vibes', cursive;
+  background-color: #7D7C7C;
+  margin-top: 40px;
+  color: white;
+}
+.author{
+  margin-top: 0;
+  font-size: 30px;
+}
+.finalImage{
+  box-shadow: 4px 2px 5px 7px rgb(246, 241, 233, 0.6);
+} 
+.commonTeam{
+  display: flex;
+  justify-content: space-around;
+  background-color:rgb(184, 176, 176, 0.4); ;
+  padding: 30px;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.textTeam{
+  width: 450px;
+  text-align: center;
+}
+.picturesTeam{
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.dancerName{
+  color:#CA9175;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 35px;
+}
+.danceDescr{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}
+.dancerMain{
+  position: absolute;
+  box-shadow:  4px 2px 5px 5px rgb(125, 124, 124, 0.5) ;
+}
+.dancerOverlap{
+  position: relative;
+  margin-top: 280px;
+  margin-left: 60px;
+  box-shadow:  4px 2px 5px 5px rgb(125, 124, 124, 0.5) ;
+}
+.dancerMainPhoto{
+  box-shadow:  4px 2px 5px 7px rgb(125, 124, 124, 0.8) ;
+}
+.prev_next{
+  display: flex;
+  justify-content: center;
+  background-color:rgb(184, 176, 176, 0.4); ;
+}
+.prev{
+  margin: 20px;
+  width: 150px;
+  padding: 15px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+  background-color: #CA9175;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.prev:hover{
+  background-color: white;
+  border: 3px solid #CA9175;
+  color: #CA9175;
+}
+.teamQuote{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 70px;
+}
+.textQuoteTeam{
+  color: #CE5A67;
+  font-family: 'Great Vibes', cursive;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+.authorQuoteTeam{
+  color: #CE5A67;
+  font-family: 'Great Vibes', cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+.textTrial{
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #F0F1F1; 
+   padding: 20px;
+}
+.headerTrial{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 40px;
+  color: #CE5A67;
+}
+.parTrial{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  width: 60%;
+  text-align: center;
+}
+.btnTrial{
+  padding: 18px;
+  font-size: 16px;
+  width: 170px;
+  font-family: 'Varela Round', sans-serif;
+  border: none;
+  margin-top: 10px;
+  background-color: #CE5A67;
+  color: white;
+  cursor: pointer;
+}
+.btnTrial:hover{
+  background-color:#F0F1F1 ;
+  border: 3px solid #CE5A67;
+  color: #CE5A67;
+}
+.footer{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: #F0F1F1; ;
+  
+}
+.work{
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  color: #CA9175;
+}
+.cont{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}
+.mail{
+  display: flex;
+  flex-direction: column;
+}
+.email{
+  width: 215px;
+  margin-left: 5px;
+}
+.message{
+  width: 184px;
+  padding: 10px;
+  margin-left:px;
+  margin-left: 5px;
+}
+label{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  margin: 7px;
+}
+.mailBtn{
+  padding: 8px;
+  background-color: #CA9175;
+  border: none;
+  color: white;
+  margin-top: 5px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+.mailBtn:hover{
+  background-color: #F0F1F1;
+  border: 3px solid #CA9175 ;
+  color: #CA9175;
+}
+
+.homePic{
+  position:absolute;
+}
+
+.homeQuote{
+  position: relative;
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homeText{
+  color:white;
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+.homeAuthor{
+   color: white;
+   font-family: 'Great Vibes', cursive;
+   font-size: 35px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+
+ 
+
+@media all and (max-width:500px){
+  .hamburger_btn{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .menu{
+    display: block;
+  
+  }
+  .show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-top: 12px;
+    width: 100%;
+  }
+  .close{
+    display: none;
+  }
+  
+  .homeQuote{
+    padding: 50px;
+  }
+  .homeText{
+    font-size: 27px;
+    text-align: center;
+  }
+  .homeAuthor{
+    font-size: 18px;
+    margin-top: 0;
+  }
+  h1{
+    font-size: 35px;
+  }
+  .logo{
+    width: 60px;
+  }
+  h4{
+    font-size: 12px;
+   
+  }
+  .link{
+    font-size: 17px;
+    padding: 8px;
+  }
+  .link:hover{
+    font-size: 22px;
+  }
+  .pic_main{
+    width: 400px;
+    box-shadow: 4px 2px 5px 7px rgb(125, 124, 124, 0.7) 
+  }
+  .pic_overlap{
+    width: 350px;
+    margin-top: 580px;
+    margin-left: 80px;
+    box-shadow: 4px 2px 5px 7px rgb(125, 124, 124, 0.7) 
+  }
+  .mainClass{
+    flex-direction: column;
+    align-items: center;
+  }
+  .pictures{
+    width: 100%;
+  }
+  .text{
+    width: 100%;
+    font-size: 17px;
+  }
+  .header{
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo_numbers{
+    width: 37px;
+  }
+  .numbers{
+    font-size: 16px;
+  }
+  span{
+    font-size: 22px;
+  }
+  .review{
+    margin-top: 40px;
+    font-size: 30px;
+  }
+  .allRev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainRev{
+    width: 380px;
+   padding: 2px;
+  }
+  .text_rev{
+    font-size: 17px;
+    margin-top: 0;
+  }
+  .name_rev{
+    font-size: 17px ;
+  }
+  .star{
+    width: 17px;
+  }
+  .btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .btnDance{
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+  }
+  .danceContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .dance_images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .danceMainPic{
+    width: 400px;
+    box-shadow: 4px 2px 5px 4px rgb(125, 124, 124, 0.5);
+  }
+  .danceOverlapPic{
+    width: 350px;
+    margin-top: 248px;
+    margin-left: 110px;
+    box-shadow: 4px 2px 5px 4px rgb(125, 124, 124, 0.5);
+  }
+ 
+  .allDance{
+    display: flex;
+    flex-direction: column;
+     margin-top: 30px;
+     width: 94%;
+    margin-top: 30px;
+  }
+  .commonDance{
+    width: 100%;
+    padding: 5px;
+  }
+  .quote{
+    font-size: 27px;
+    padding: 25px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .author{
+    font-size: 20px;
+  }
+  .teamQuote{
+    display: flex;
+    justify-content: center;
+  }
+  .textQuoteTeam{
+    font-size: 24px;
+  }
+  .authorQuoteTeam{
+    font-size: 18px;
+  }
+  .commonTeam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dancerMainPhoto{
+    width: 100%;
+  }
+  .dancerMain{
+    width: 380px;
+  }
+  .dancerOverlap{
+    width: 380px;
+    margin-top: 240px;
+  }
+  .danceDescr{
+    font-size: 18px;
+  }
+  .dancerName{
+    font-size: 28px;
+  }
+  .danceName{
+    font-size: 22px;
+  }
+  .textTeam{
+    margin-top: 20px;
+
+  }
+  .prev{
+    width: 130px;
+    padding: 13px;
+    font-size: 13px;
+  }
+  
+  
+  .headerTrial{
+    font-size: 22px;
+  }
+  .parTrial{
+    font-size: 17px;
+    width:  350px;
+    text-align: center;
+    margin-top: 0;
+  }
+  .btnTrial{
+    margin-top: 0;
+    width: 125px;
+    font-size: 13px;
+    padding: 10px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+
+  }
+  .workingHours{
+    width: 350px;
+    margin-top: 10px;
+  }
+  .message{
+    width: 184px;
+  }
+  .cont, label{
+    font-size: 18px;
+  }
+  .work{
+    font-size: 20px;
+  }
+  .play{
+    width: 25px;
+  }
+   
+  
+}
+
+  
+
+
+  
