@@ -485,13 +485,13 @@ label{
   }
   .pic_main{
     width: 320px;
-    box-shadow: 4px 2px 5px 7px rgb(125, 124, 124, 0.7) 
+    box-shadow: 4px 2px 5px 4px rgb(125, 124, 124, 0.7) 
   }
   .pic_overlap{
     width: 290px;
     margin-top: 435px;
     margin-left: 40px;
-    box-shadow: 4px 2px 5px 7px rgb(125, 124, 124, 0.7) 
+    box-shadow: 4px 2px 5px 4px rgb(125, 124, 124, 0.7) 
   }
   .mainClass{
     flex-direction: column;
@@ -569,7 +569,7 @@ label{
   }
   .danceOverlapPic{
     width: 300px;
-    margin-top: 180px;
+    margin-top: 200px;
     margin-left: 50px;
     box-shadow: 4px 2px 5px 4px rgb(125, 124, 124, 0.5);
   }
@@ -596,11 +596,12 @@ label{
   }
   .finalImage{
     width: 350px;
-    box-shadow: 4px 2px 5px 4px rgb(246, 241, 233, 0.6);
+    box-shadow: 4px 2px 5px 3px rgb(246, 241, 233, 0.6);
   }
   .teamQuote{
     display: flex;
     justify-content: center;
+    margin-right: 0px;
   }
   .textQuoteTeam{
     font-size: 19px;
@@ -624,19 +625,19 @@ label{
   }
   .dancerOverlap{
     width: 300px;
-    margin-top: 200px;
+    margin-top: 205px;
   }
   .danceDescr{
     font-size: 18px;
   }
   .dancerName{
-    font-size: 28px;
+    font-size: 24px;
   }
   .danceName{
-    font-size: 20px;
+    font-size: 18px;
   }
   .textTeam{
-    margin-top: 18px;
+    margin-top: 16px;
     width: 320px;
 
   }
