@@ -488,9 +488,9 @@ label{
     box-shadow: 4px 2px 5px 7px rgb(125, 124, 124, 0.7) 
   }
   .pic_overlap{
-    width: 300px;
-    margin-top: 520px;
-    margin-left: 80px;
+    width: 270px;
+    margin-top: 450px;
+    margin-left: 50px;
     box-shadow: 4px 2px 5px 7px rgb(125, 124, 124, 0.7) 
   }
   .mainClass{
@@ -569,8 +569,8 @@ label{
   }
   .danceOverlapPic{
     width: 300px;
-    margin-top: 200px;
-    margin-left: 110px;
+    margin-top: 180px;
+    margin-left: 50px;
     box-shadow: 4px 2px 5px 4px rgb(125, 124, 124, 0.5);
   }
  
@@ -578,7 +578,7 @@ label{
     display: flex;
     flex-direction: column;
      margin-top: 30px;
-     width: 97%;
+     width: 96%;
     margin-top: 30px;
   }
   .commonDance{
@@ -595,17 +595,18 @@ label{
     font-size: 20px;
   }
   .finalImage{
-    width: 400px;
+    width: 350px;
   }
   .teamQuote{
     display: flex;
     justify-content: center;
   }
   .textQuoteTeam{
-    font-size: 24px;
+    font-size: 19px;
+    text-align: center;
   }
   .authorQuoteTeam{
-    font-size: 18px;
+    font-size: 15px;
   }
   .commonTeam{
     display: flex;
@@ -613,7 +614,7 @@ label{
     align-items: center;
   }
   .dancerMainPhoto{
-    width: 400px;
+    width: 350px;
   }
   .dancerMain{
     width: 300px;
@@ -667,14 +668,14 @@ label{
 
   }
   .workingHours{
-    width: 350px;
+    width: 300px;
     margin-top: 10px;
   }
   .message{
     width: 184px;
   }
   .cont, label{
-    font-size: 18px;
+    font-size: 16px;
   }
   .work{
     font-size: 20px;
