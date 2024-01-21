@@ -484,20 +484,18 @@ label{
     font-size: 22px;
   }
   .pic_main{
-    position: relative;
-    width: 280px;
+    width: 300px;
     box-shadow: 4px 2px 5px 7px rgb(125, 124, 124, 0.7) 
   }
   .pic_overlap{
-    width: 280px;
-    margin-top: 580px;
-    margin-left: 60px;
+    width: 300px;
+    margin-top: 520px;
+    margin-left: 80px;
     box-shadow: 4px 2px 5px 7px rgb(125, 124, 124, 0.7) 
   }
   .mainClass{
     flex-direction: column;
     align-items: center;
-    padding: 0px;
   }
   .pictures{
     width: 100%;
@@ -566,13 +564,13 @@ label{
     width: 100%;
   }
   .danceMainPic{
-    width: 400px;
+    width: 300px;
     box-shadow: 4px 2px 5px 4px rgb(125, 124, 124, 0.5);
   }
   .danceOverlapPic{
     width: 300px;
-    margin-top: 248px;
-    margin-left: 90px;
+    margin-top: 200px;
+    margin-left: 110px;
     box-shadow: 4px 2px 5px 4px rgb(125, 124, 124, 0.5);
   }
  
@@ -580,7 +578,7 @@ label{
     display: flex;
     flex-direction: column;
      margin-top: 30px;
-     width: 94%;
+     width: 97%;
     margin-top: 30px;
   }
   .commonDance{
@@ -596,6 +594,9 @@ label{
   .author{
     font-size: 20px;
   }
+  .finalImage{
+    width: 400px;
+  }
   .teamQuote{
     display: flex;
     justify-content: center;
@@ -610,17 +611,16 @@ label{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
   }
   .dancerMainPhoto{
-    width: 100%;
+    width: 400px;
   }
   .dancerMain{
-    width: 380px;
+    width: 300px;
   }
   .dancerOverlap{
     width: 300px;
-    margin-top: 240px;
+    margin-top: 200px;
   }
   .danceDescr{
     font-size: 18px;
